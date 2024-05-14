@@ -50,7 +50,7 @@ fn apply(applicant: &Val, arguments: Vec<Box<Val>>) -> Result<Val, String> {
 
 #[cfg(test)]
 mod tests {
-    use crate::fi_lang::{
+    use crate::ulc::{
         interpretation::interpret,
         syntax::{term_builder, Env, NameIntro, NameRef, Term, Val},
     };

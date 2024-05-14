@@ -154,7 +154,7 @@ pub mod term_builder {
 
     #[cfg(test)]
     mod tests {
-        use crate::fi_lang::syntax::{NameIntro, NameRef, Term};
+        use crate::ulc::syntax::{NameIntro, NameRef, Term};
 
         use super::*;
 
